@@ -4,7 +4,6 @@ __pycache__/
 env/
 .ipynb_checkpoints/
 artifacts/
-models/
 *.joblib
 *.pkl
 .DS_Store
