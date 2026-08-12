@@ -5,5 +5,4 @@ env/
 .ipynb_checkpoints/
 artifacts/
 *.joblib
-*.pkl
 .DS_Store
