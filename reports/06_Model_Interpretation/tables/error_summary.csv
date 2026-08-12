@@ -1,0 +1,10 @@
+Metric,Value
+True Positives,88.0
+True Negatives,1619.0
+False Positives,133.0
+False Negatives,160.0
+Minority Precision,0.39819004524886875
+Minority Recall,0.3548387096774194
+Minority F1,0.3752665245202559
+False Positive Rate,0.07591324200913242
+False Negative Rate,0.6451612903225806

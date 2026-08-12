@@ -1,0 +1,11 @@
+Feature,Unique Values,Missing Values
+event_id,10000,0
+event_ts,9996,0
+plant,3,0
+line,4,0
+shift,3,0
+machine_id,60,0
+operator_id,450,0
+material_grade,3,0
+inspection_method,3,0
+defect_type,6,0

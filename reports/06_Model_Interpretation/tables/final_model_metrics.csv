@@ -1,0 +1,9 @@
+Metric,Value,Percentage
+Accuracy,0.8535,85.35000000000001
+Minority Precision,0.3982,39.82
+Minority Recall,0.3548,35.480000000000004
+Minority F1-score,0.3753,37.53
+ROC-AUC,0.7009,70.09
+PR-AUC,0.4244,42.44
+False Positive Rate,0.0759,7.59
+False Negative Rate,0.6452,64.52

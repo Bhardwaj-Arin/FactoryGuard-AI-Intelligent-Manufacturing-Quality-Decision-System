@@ -1,0 +1,25 @@
+Artifact,Phase
+baseline_classification_report.csv,Phase 5 — Model Development & Evaluation
+selected_candidate_models.csv,Phase 5 — Model Development & Evaluation
+tuned_model_evaluation.csv,Phase 5 — Model Development & Evaluation
+tuned_model_error_rates.csv,Phase 5 — Model Development & Evaluation
+tuning_improvement_comparison.csv,Phase 5 — Model Development & Evaluation
+final_model_selection_comparison.csv,Phase 5 — Model Development & Evaluation
+final_model_classification_report.csv,Phase 5 — Model Development & Evaluation
+final_model_summary.csv,Phase 5 — Model Development & Evaluation
+final_model_hyperparameters.csv,Phase 5 — Model Development & Evaluation
+final_model_metadata.csv,Phase 5 — Model Development & Evaluation
+final_model_confusion_matrix.png,Phase 5 — Model Development & Evaluation
+threshold_optimization_results.csv,Phase 5 — Model Development & Evaluation
+selected_decision_threshold.csv,Phase 5 — Model Development & Evaluation
+threshold_optimization_curve.png,Phase 5 — Model Development & Evaluation
+threshold_error_rate_curve.png,Phase 5 — Model Development & Evaluation
+final_test_performance_threshold_055.csv,Phase 5 — Model Development & Evaluation
+test_default_vs_optimized_threshold.csv,Phase 5 — Model Development & Evaluation
+final_threshold_confusion_matrix.csv,Phase 5 — Model Development & Evaluation
+final_test_confusion_matrix_threshold_055.png,Phase 5 — Model Development & Evaluation
+final_classification_report_threshold_055.csv,Phase 5 — Model Development & Evaluation
+final_test_inference_results.csv,Phase 5 — Model Development & Evaluation
+phase5_final_model_performance.csv,Phase 5 — Model Development & Evaluation
+phase5_model_comparison_summary.csv,Phase 5 — Model Development & Evaluation
+phase5_threshold_analysis_summary.csv,Phase 5 — Model Development & Evaluation

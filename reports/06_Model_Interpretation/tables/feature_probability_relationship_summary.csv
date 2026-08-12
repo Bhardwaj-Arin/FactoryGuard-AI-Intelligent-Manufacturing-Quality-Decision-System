@@ -1,0 +1,6 @@
+feature,spearman_correlation,p_value,unique_values,relationship
+numerical__cost_usd,0.05155118606659562,0.021136862844120672,1276,Weak / limited relationship
+numerical__defect_severity_0to3,-0.46685949287807127,8.2907232370605505e-109,4,Negative relationship
+numerical__energy_kwh,0.02607126868135423,0.2438523673071801,725,Weak / limited relationship
+numerical__total_cycle_time_min,0.0842156228960751,0.0001628671214377623,439,Weak / limited relationship
+categorical__defect_type_none,0.45054596471227676,1.4401245537148195e-100,2,Positive relationship

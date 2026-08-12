@@ -1,0 +1,3 @@
+Model,class_weight,max_depth,max_features,min_samples_leaf,min_samples_split,n_estimators,colsample_bytree,gamma,learning_rate,min_child_weight,reg_alpha,reg_lambda,subsample
+Random Forest,balanced,12,sqrt,2.0,5.0,188,,,,,,,
+XGBoost,,7,,,,363,0.7060809470726902,0.12199482168954179,0.184465824705519,3.0,0.033462201030483786,3.887072196612055,0.8010548372420768

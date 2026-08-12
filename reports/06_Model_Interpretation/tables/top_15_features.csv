@@ -1,0 +1,16 @@
+rank,feature,importance
+1,numerical__cost_usd,0.1492736265011496
+2,numerical__defect_severity_0to3,0.1078056910333409
+3,numerical__energy_kwh,0.07330629477112856
+4,numerical__total_cycle_time_min,0.07290885514490342
+5,categorical__defect_type_none,0.06102095188223355
+6,numerical__machine_age_yrs,0.052758359962466674
+7,numerical__process_speed_units_hr,0.04082798476798181
+8,numerical__humidity_pct,0.0397174454816073
+9,numerical__temp_c,0.03821592508552695
+10,numerical__event_hour,0.02894723282867805
+11,numerical__decision_rework,0.020690105871421782
+12,numerical__event_day_of_week,0.01943840170490838
+13,numerical__event_month,0.01672732952921966
+14,categorical__defect_type_finish,0.01292828299188612
+15,categorical__defect_type_crack,0.012620818705093535

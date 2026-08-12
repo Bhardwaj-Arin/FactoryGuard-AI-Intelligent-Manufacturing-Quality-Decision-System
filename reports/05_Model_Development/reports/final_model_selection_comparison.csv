@@ -1,0 +1,8 @@
+Metric,Random Forest,XGBoost
+CV Minority F1,0.3827,0.3551
+Test Minority F1,0.3753,0.3562
+Test Minority Recall,0.3548,0.2298
+Test Minority Precision,0.3982,0.7917
+Test ROC-AUC,0.7009,0.6839
+Test PR-AUC,0.4244,0.4186
+Test Accuracy,0.8535,0.897

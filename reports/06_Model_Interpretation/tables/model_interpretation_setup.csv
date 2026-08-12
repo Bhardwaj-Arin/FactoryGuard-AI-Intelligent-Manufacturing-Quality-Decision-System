@@ -1,0 +1,16 @@
+Parameter,Value
+Model,RandomForestClassifier
+Training Records,8000
+Testing Records,2000
+Number of Features,115
+Target Variable,final_pass
+Final Decision Threshold,0.5
+Class 0 Percentage,12.4
+Class 1 Percentage,87.6
+n_estimators,188
+max_depth,12
+max_features,sqrt
+min_samples_split,5
+min_samples_leaf,2
+class_weight,balanced
+random_state,42

@@ -1,0 +1,17 @@
+test_id,test_name,status
+1,Artifact Loading,PASSED
+2,Valid Input Validation,PASSED
+3,Missing Value Rejection,PASSED
+4,Missing Column Rejection,PASSED
+5,Invalid Category Rejection,PASSED
+6,Invalid Numerical Input Rejection,PASSED
+7,Invalid Timestamp Rejection,PASSED
+8,Boundary Values,PASSED
+9,Feature Engineering,PASSED
+10,Schema Alignment,PASSED
+11,Preprocessing Output,PASSED
+13,Probability Consistency,PASSED
+14,Threshold Consistency,PASSED
+15,Multiple Observation Prediction,PASSED
+16,Streamlit Batch Prediction Helper,PASSED
+17,Single vs Batch Consistency,PASSED

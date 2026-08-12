@@ -1,0 +1,5 @@
+Prediction Type,Technical Meaning,Business Interpretation,Priority
+True Positive,Actual Class 0 and predicted Class 0.,Potentially problematic case correctly flagged for investigation.,Desired detection
+True Negative,Actual Class 1 and predicted Class 1.,Normal/majority case correctly classified.,Desired outcome
+False Positive,Actual Class 1 but predicted Class 0.,A normal case is incorrectly flagged and may receive unnecessary investigation.,False alarm
+False Negative,Actual Class 0 but predicted Class 1.,A potentially problematic case is missed by the model.,Critical miss

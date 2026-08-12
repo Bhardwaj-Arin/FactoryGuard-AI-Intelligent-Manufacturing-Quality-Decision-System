@@ -1,0 +1,14 @@
+Feature,Skewness,Kurtosis,Absolute Skewness
+warranty_claim_90d,8.777,75.051,8.777
+scrap,6.112,35.366,6.112
+cost_usd,4.415,23.095,4.415
+defect_severity_0to3,2.495,5.141,2.495
+rework_time_min,2.431,5.124,2.431
+final_pass,-2.283,3.215,2.283
+total_cycle_time_min,1.88,3.646,1.88
+energy_kwh,1.22,2.017,1.22
+decision_rework,1.196,-0.57,1.196
+temp_c,0.361,-0.502,0.361
+machine_age_yrs,0.112,-0.258,0.112
+humidity_pct,-0.089,-0.881,0.089
+process_speed_units_hr,0.061,-0.213,0.061

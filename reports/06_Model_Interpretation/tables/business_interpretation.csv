@@ -1,0 +1,8 @@
+Aspect,Interpretation
+Overall accuracy,The model correctly classifies approximately 85% of test observations.
+Minority-class detection,The model detects approximately 35% of actual minority-class cases.
+Minority precision,Approximately 40% of cases predicted as the minority class are actually minority-class cases.
+ROC-AUC,The model demonstrates meaningful ability to distinguish between the two classes.
+False positives,Some majority-class cases are incorrectly flagged as minority cases and may require unnecessary investigation.
+False negatives,A substantial number of actual minority-class cases are missed by the model.
+Recommended system role,Use as a decision-support and screening system rather than a fully automated quality-control system.

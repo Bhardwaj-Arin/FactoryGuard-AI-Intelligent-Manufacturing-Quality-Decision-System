@@ -1,0 +1,206 @@
+ .gitignore                                         |    10 [32m+[m
+ LICENSE                                            |     0
+ README.md                                          |     0
+ data/interim/working_dataset.csv                   | 10001 [32m+++++++++++[m
+ data/processed/final_feature_names.csv             |   116 [32m+[m
+ data/processed/test_ml_dataset.csv                 |  2001 [32m+++[m
+ data/processed/train_ml_dataset.csv                |  8001 [32m+++++++++[m
+ data/raw/manufacturing_quality_decisions_10000.csv | 10001 [32m+++++++++++[m
+ docs/01_Project_Foundation/Business_Problem.md     |   486 [32m+[m
+ docs/01_Project_Foundation/Folder_Structure.md     |   667 [32m+[m
+ docs/01_Project_Foundation/Project_Overview.md     |   327 [32m+[m
+ docs/01_Project_Foundation/Tech_Stack.md           |   546 [32m+[m
+ .../1_Dataset_and_Business_Overview.md             |   130 [32m+[m
+ .../2_Dataset_Profile.md                           |   148 [32m+[m
+ .../3_Data_Quality_Report.md                       |   162 [32m+[m
+ .../4_Chapter_Summary.md                           |    78 [32m+[m
+ .../03_Exploratory_Data_Analysis/1_EDA_Overview.md |    18 [32m+[m
+ .../2_Data_Quality_Analysis.md                     |    18 [32m+[m
+ .../3_Feature_Analysis.md                          |    70 [32m+[m
+ docs/03_Exploratory_Data_Analysis/4_EDA_Report.md  |    67 [32m+[m
+ .../Feature_Availability_Leakage_Assessment.md     |    30 [32m+[m
+ .../Feature_Engineering_Documentation.md           |    38 [32m+[m
+ .../Feature_Selection_Documentation.md             |    49 [32m+[m
+ docs/04_Feature_Engineering/Phase_4_Summary.md     |    68 [32m+[m
+ .../Preprocessing_Strategy.md                      |    28 [32m+[m
+ .../Phase_5_Model_Development_Summary.md           |   224 [32m+[m
+ main.py                                            |     0
+ notebooks/02_Initial_Data_Exploration.ipynb        |  1468 [32m++[m
+ notebooks/03_exploratory_data_analysis.ipynb       | 11537 [32m+++++++++++++[m
+ notebooks/04_Feature_Engineering.ipynb             |  4674 [32m++++++[m
+ notebooks/05_Model_Development.ipynb               | 16386 [32m+++++++++++++++++++[m
+ notebooks/06_Model_Interpretation.ipynb            | 12545 [32m++++++++++++++[m
+ notebooks/07_Deployment_Preparation.ipynb          | 14067 [32m++++++++++++++++[m
+ references/business_requirements.md                |     0
+ references/dataset_link.md                         |     0
+ references/research_notes.md                       |     0
+ .../figures/categorical_feature_distributions.png  |   Bin [31m0[m -> [32m468135[m bytes
+ reports/03_EDA/figures/correlation_heatmap.png     |   Bin [31m0[m -> [32m634037[m bytes
+ .../figures/feature_data_type_distribution.png     |   Bin [31m0[m -> [32m73326[m bytes
+ .../final_pass_rate_by_inspection_method.png       |   Bin [31m0[m -> [32m70221[m bytes
+ reports/03_EDA/figures/final_pass_rate_by_line.png |   Bin [31m0[m -> [32m55780[m bytes
+ .../figures/final_pass_rate_by_material_grade.png  |   Bin [31m0[m -> [32m73059[m bytes
+ .../03_EDA/figures/final_pass_rate_by_plant.png    |   Bin [31m0[m -> [32m57420[m bytes
+ .../03_EDA/figures/final_pass_rate_by_shift.png    |   Bin [31m0[m -> [32m55009[m bytes
+ .../figures/final_pass_rate_material_shift.png     |   Bin [31m0[m -> [32m99201[m bytes
+ .../03_EDA/figures/final_pass_rate_plant_shift.png |   Bin [31m0[m -> [32m87033[m bytes
+ reports/03_EDA/figures/multivariate_pairplot.png   |   Bin [31m0[m -> [32m4206804[m bytes
+ .../03_EDA/figures/numerical_feature_boxplots.png  |   Bin [31m0[m -> [32m451220[m bytes
+ .../figures/numerical_feature_distributions.png    |   Bin [31m0[m -> [32m956126[m bytes
+ .../figures/numerical_features_vs_target.png       |   Bin [31m0[m -> [32m473662[m bytes
+ .../03_EDA/figures/outlier_analysis_boxplots.png   |   Bin [31m0[m -> [32m420651[m bytes
+ .../figures/skewed_feature_distributions.png       |   Bin [31m0[m -> [32m740902[m bytes
+ reports/03_EDA/figures/target_distribution.png     |   Bin [31m0[m -> [32m67803[m bytes
+ .../figures/univariate_categorical_analysis.png    |   Bin [31m0[m -> [32m375691[m bytes
+ .../figures/univariate_numerical_analysis.png      |   Bin [31m0[m -> [32m702977[m bytes
+ reports/03_EDA/tables/business_quality_summary.csv |     4 [32m+[m
+ .../03_EDA/tables/categorical_feature_summary.csv  |    11 [32m+[m
+ .../tables/categorical_target_rate_summary.csv     |     6 [32m+[m
+ reports/03_EDA/tables/correlation_matrix.csv       |    14 [32m+[m
+ .../03_EDA/tables/feature_distribution_summary.csv |    14 [32m+[m
+ reports/03_EDA/tables/final_eda_summary.csv        |     9 [32m+[m
+ .../03_EDA/tables/numerical_feature_skewness.csv   |    14 [32m+[m
+ .../03_EDA/tables/numerical_feature_summary.csv    |    14 [32m+[m
+ reports/03_EDA/tables/outlier_ranking.csv          |    14 [32m+[m
+ reports/03_EDA/tables/outlier_summary.csv          |    14 [32m+[m
+ reports/03_EDA/tables/plant_performance.csv        |     4 [32m+[m
+ .../tables/plant_shift_material_pass_rate.csv      |    28 [32m+[m
+ reports/03_EDA/tables/plant_shift_performance.csv  |    10 [32m+[m
+ reports/03_EDA/tables/shift_performance.csv        |     4 [32m+[m
+ reports/03_EDA/tables/strong_correlation_pairs.csv |    79 [32m+[m
+ .../03_EDA/tables/target_distribution_summary.csv  |     3 [32m+[m
+ .../03_EDA/tables/univariate_numerical_summary.csv |    10 [32m+[m
+ .../figures/candidate_model_comparison.png         |   Bin [31m0[m -> [32m102423[m bytes
+ .../figures/cross_validation_f1_stability.png      |   Bin [31m0[m -> [32m78076[m bytes
+ .../cross_validation_performance_comparison.png    |   Bin [31m0[m -> [32m103488[m bytes
+ .../figures/decision_tree_confusion_matrix.png     |   Bin [31m0[m -> [32m58977[m bytes
+ .../false_positive_negative_rate_comparison.png    |   Bin [31m0[m -> [32m91946[m bytes
+ .../figures/final_model_confusion_matrix.png       |   Bin [31m0[m -> [32m63679[m bytes
+ .../final_test_confusion_matrix_threshold_055.png  |   Bin [31m0[m -> [32m75544[m bytes
+ .../initial_model_performance_comparison.png       |   Bin [31m0[m -> [32m107806[m bytes
+ .../figures/initial_vs_tuned_f1_comparison.png     |   Bin [31m0[m -> [32m79651[m bytes
+ .../logistic_regression_confusion_matrix.png       |   Bin [31m0[m -> [32m58391[m bytes
+ .../minority_class_performance_comparison.png      |   Bin [31m0[m -> [32m106434[m bytes
+ .../figures/predicted_class_distribution.png       |   Bin [31m0[m -> [32m103979[m bytes
+ .../figures/random_forest_confusion_matrix.png     |   Bin [31m0[m -> [32m59102[m bytes
+ .../figures/threshold_error_rate_curve.png         |   Bin [31m0[m -> [32m188162[m bytes
+ .../figures/threshold_optimization_curve.png       |   Bin [31m0[m -> [32m228319[m bytes
+ .../figures/tuned_model_performance_comparison.png |   Bin [31m0[m -> [32m92686[m bytes
+ .../tuned_models_precision_recall_curve.png        |   Bin [31m0[m -> [32m131638[m bytes
+ .../figures/tuned_models_roc_curve.png             |   Bin [31m0[m -> [32m163401[m bytes
+ .../tuned_random_forest_confusion_matrix.png       |   Bin [31m0[m -> [32m61384[m bytes
+ .../figures/tuned_xgboost_confusion_matrix.png     |   Bin [31m0[m -> [32m57484[m bytes
+ .../figures/xgboost_confusion_matrix.png           |   Bin [31m0[m -> [32m57041[m bytes
+ .../reports/baseline_classification_report.csv     |     6 [32m+[m
+ .../reports/baseline_confusion_matrix.csv          |     3 [32m+[m
+ .../reports/baseline_results.csv                   |     2 [32m+[m
+ .../reports/best_hyperparameters.csv               |     3 [32m+[m
+ .../reports/candidate_model_comparison.csv         |     3 [32m+[m
+ .../reports/class_imbalance_analysis.csv           |     5 [32m+[m
+ .../reports/complete_model_comparison.csv          |     5 [32m+[m
+ .../reports/confusion_matrix_analysis.csv          |     5 [32m+[m
+ .../reports/cross_validation_f1_ranking.csv        |     3 [32m+[m
+ .../reports/cross_validation_fold_results.csv      |    11 [32m+[m
+ .../reports/cross_validation_pr_auc_ranking.csv    |     3 [32m+[m
+ .../reports/cross_validation_results.csv           |     3 [32m+[m
+ .../reports/current_best_tuned_candidate.csv       |     2 [32m+[m
+ .../decision_tree_classification_report.csv        |     6 [32m+[m
+ .../reports/decision_tree_confusion_matrix.csv     |     3 [32m+[m
+ .../final_classification_report_threshold_055.csv  |     6 [32m+[m
+ .../reports/final_model_classification_report.csv  |     6 [32m+[m
+ .../reports/final_model_hyperparameters.csv        |     7 [32m+[m
+ .../reports/final_model_metadata.csv               |     2 [32m+[m
+ .../reports/final_model_selection_comparison.csv   |     8 [32m+[m
+ .../reports/final_model_summary.csv                |     2 [32m+[m
+ .../reports/final_test_inference_results.csv       |  2001 [32m+++[m
+ .../final_test_performance_threshold_055.csv       |     2 [32m+[m
+ .../reports/final_threshold_confusion_matrix.csv   |     3 [32m+[m
+ .../reports/hyperparameter_tuning_summary.csv      |     3 [32m+[m
+ .../reports/initial_model_comparison.csv           |     5 [32m+[m
+ .../reports/initial_model_training_summary.csv     |     5 [32m+[m
+ .../reports/initial_vs_tuned_test_performance.csv  |     3 [32m+[m
+ .../logistic_regression_classification_report.csv  |     6 [32m+[m
+ .../logistic_regression_confusion_matrix.csv       |     3 [32m+[m
+ .../reports/model_metric_rankings.csv              |     5 [32m+[m
+ .../reports/modeling_setup_summary.csv             |    12 [32m+[m
+ .../reports/phase5_artifact_index.csv              |    25 [32m+[m
+ .../reports/phase5_final_model_performance.csv     |     2 [32m+[m
+ .../reports/phase5_model_comparison_summary.csv    |     3 [32m+[m
+ .../reports/phase5_threshold_analysis_summary.csv  |     2 [32m+[m
+ .../random_forest_classification_report.csv        |     6 [32m+[m
+ .../reports/random_forest_confusion_matrix.csv     |     3 [32m+[m
+ .../random_forest_randomized_search_results.csv    |    31 [32m+[m
+ .../reports/selected_candidate_models.csv          |     3 [32m+[m
+ .../reports/selected_decision_threshold.csv        |     2 [32m+[m
+ .../test_default_vs_optimized_threshold.csv        |     7 [32m+[m
+ .../reports/threshold_optimization_results.csv     |    18 [32m+[m
+ .../tuned_model_confusion_matrix_results.csv       |     3 [32m+[m
+ .../reports/tuned_model_error_rates.csv            |     3 [32m+[m
+ .../reports/tuned_model_evaluation.csv             |     3 [32m+[m
+ .../tuned_random_forest_classification_report.csv  |     6 [32m+[m
+ .../tuned_xgboost_classification_report.csv        |     6 [32m+[m
+ .../reports/tuning_improvement_comparison.csv      |     3 [32m+[m
+ .../reports/xgboost_classification_report.csv      |     6 [32m+[m
+ .../reports/xgboost_confusion_matrix.csv           |     3 [32m+[m
+ .../reports/xgboost_randomized_search_results.csv  |    31 [32m+[m
+ .../Phase_6_Model_Interpretation_Report.md         |   147 [32m+[m
+ .../business_interpretation_and_limitations.md     |    88 [32m+[m
+ ...__defect_type_none_probability_relationship.png |   Bin [31m0[m -> [32m152802[m bytes
+ .../individual_prediction_probabilities.png        |   Bin [31m0[m -> [32m140487[m bytes
+ ...umerical__cost_usd_probability_relationship.png |   Bin [31m0[m -> [32m253441[m bytes
+ ...fect_severity_0to3_probability_relationship.png |   Bin [31m0[m -> [32m251293[m bytes
+ ...erical__energy_kwh_probability_relationship.png |   Bin [31m0[m -> [32m253964[m bytes
+ ...tal_cycle_time_min_probability_relationship.png |   Bin [31m0[m -> [32m267913[m bytes
+ .../prediction_probability_error_distribution.png  |   Bin [31m0[m -> [32m125491[m bytes
+ .../figures/top_15_feature_importance.png          |   Bin [31m0[m -> [32m201925[m bytes
+ .../figures/top_5_feature_distributions.png        |   Bin [31m0[m -> [32m403028[m bytes
+ .../tables/business_interpretation.csv             |     8 [32m+[m
+ .../tables/error_business_interpretation.csv       |     5 [32m+[m
+ .../tables/error_probability_analysis.csv          |     5 [32m+[m
+ .../tables/error_summary.csv                       |    10 [32m+[m
+ .../tables/factoryguard_workflow.csv               |     7 [32m+[m
+ .../tables/feature_importance.csv                  |   116 [32m+[m
+ .../tables/feature_importance_concentration.csv    |     4 [32m+[m
+ .../feature_probability_relationship_summary.csv   |     6 [32m+[m
+ .../tables/feature_probability_relationships.csv   |    37 [32m+[m
+ .../tables/final_model_metrics.csv                 |     9 [32m+[m
+ .../tables/future_improvements.csv                 |     7 [32m+[m
+ .../incorrect_prediction_probability_analysis.csv  |     3 [32m+[m
+ .../individual_prediction_feature_analysis.csv     |    41 [32m+[m
+ .../tables/individual_prediction_summary.csv       |     5 [32m+[m
+ .../tables/model_interpretation_setup.csv          |    16 [32m+[m
+ .../tables/model_limitations.csv                   |     9 [32m+[m
+ .../tables/model_strengths.csv                     |     6 [32m+[m
+ .../tables/prediction_group_feature_comparison.csv |    41 [32m+[m
+ .../tables/top_10_feature_class_comparison.csv     |    11 [32m+[m
+ .../tables/top_15_features.csv                     |    16 [32m+[m
+ .../tables/top_feature_class_analysis.csv          |    16 [32m+[m
+ .../tables/top_feature_class_differences.csv       |    16 [32m+[m
+ .../tables/true_negative_vs_false_positive.csv     |    11 [32m+[m
+ .../tables/true_positive_vs_false_negative.csv     |    11 [32m+[m
+ reports/07_Deployment/deployment_manifest.json     |    26 [32m+[m
+ .../factoryguard_deployment_architecture.png       |   Bin [31m0[m -> [32m153942[m bytes
+ .../tables/batch_prediction_verification.csv       |    11 [32m+[m
+ .../tables/deployment_module_verification.csv      |     6 [32m+[m
+ .../tables/deployment_readiness_checklist.csv      |    11 [32m+[m
+ .../tables/factoryguard_input_schema.csv           |    18 [32m+[m
+ .../tables/inference_pipeline_verification.csv     |     2 [32m+[m
+ .../tables/input_validation_test_results.csv       |     8 [32m+[m
+ .../tables/local_environment_check.csv             |     8 [32m+[m
+ .../tables/local_streamlit_qa_results.csv          |    15 [32m+[m
+ .../tables/prediction_engine_verification.csv      |     2 [32m+[m
+ .../tables/streamlit_backend_qa_results.csv        |    17 [32m+[m
+ requirements.txt                                   |    10 [32m+[m
+ src/__init__.py                                    |     0
+ src/feature_engineering.py                         |   114 [32m+[m
+ src/prediction.py                                  |   175 [32m+[m
+ src/validation.py                                  |   235 [32m+[m
+ streamlit_app/app.py                               |   125 [32m+[m
+ .../factoryguard_deployment_architecture.png       |   Bin [31m0[m -> [32m153942[m bytes
+ streamlit_app/assets/top_15_feature_importance.png |   Bin [31m0[m -> [32m201925[m bytes
+ streamlit_app/pages/1_Predict.py                   |   247 [32m+[m
+ streamlit_app/pages/2_What_If_Explorer.py          |   188 [32m+[m
+ streamlit_app/pages/3_Model_Insights.py            |    98 [32m+[m
+ streamlit_app/pages/4_Batch_Prediction.py          |   106 [32m+[m
+ streamlit_app/utils.py                             |   404 [32m+[m
+ 205 files changed, 98998 insertions(+)

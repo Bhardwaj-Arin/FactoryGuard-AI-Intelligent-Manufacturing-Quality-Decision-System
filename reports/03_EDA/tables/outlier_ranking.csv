@@ -1,0 +1,14 @@
+Feature,Outlier Count,Outlier Percentage
+decision_rework,2434,24.34
+rework_time_min,2335,23.35
+defect_severity_0to3,1597,15.97
+final_pass,1239,12.39
+cost_usd,1047,10.47
+total_cycle_time_min,1042,10.42
+energy_kwh,593,5.93
+scrap,248,2.48
+warranty_claim_90d,125,1.25
+machine_age_yrs,38,0.38
+temp_c,8,0.08
+process_speed_units_hr,0,0.0
+humidity_pct,0,0.0

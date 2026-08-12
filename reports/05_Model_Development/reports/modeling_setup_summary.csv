@@ -1,0 +1,12 @@
+Property,Value
+Training Records,8000
+Testing Records,2000
+Number of Features,115
+Target Variable,final_pass
+Number of Classes,2
+Majority Class,1
+Majority Class Percentage,87.61
+Minority Class,0
+Minority Class Percentage,12.39
+Missing Values - X_train,0
+Missing Values - X_test,0

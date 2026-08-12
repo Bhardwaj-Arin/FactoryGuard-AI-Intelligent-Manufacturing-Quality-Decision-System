@@ -1,0 +1,3 @@
+Model,Best CV Minority F1,Tuning Time (seconds),Number of Configurations Tested
+Random Forest,0.38265675267662813,439.7751724720001,30
+XGBoost,0.3551403853194913,82.27557468414307,30

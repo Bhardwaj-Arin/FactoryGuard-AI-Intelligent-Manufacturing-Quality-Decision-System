@@ -1,0 +1,15 @@
+test,status
+Application Startup,PASS
+Home Page,PASS
+Single Prediction,PASS
+Prediction Result,PASS
+Probability Consistency,PASS
+Model Insights,PASS
+Batch Prediction,PASS
+Batch Result,PASS
+CSV Download,PASS
+Invalid CSV Handling,PASS
+Navigation,PASS
+Application Restart,PASS
+Fresh Terminal Launch,PASS
+End-to-End Workflow,PASS

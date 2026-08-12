@@ -1,0 +1,9 @@
+Metric,Value
+Total Records,10000.0
+Total Features,23.0
+Numerical Features,13.0
+Categorical Features,10.0
+Missing Values,0.0
+Duplicate Records,0.0
+Final Pass Rate (%),87.61
+Minority Class Rate (%),12.39

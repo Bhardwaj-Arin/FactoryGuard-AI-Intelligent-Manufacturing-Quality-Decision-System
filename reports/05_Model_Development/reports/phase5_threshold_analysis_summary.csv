@@ -1,0 +1,2 @@
+Model,Default Threshold,Candidate Optimized Threshold,Default CV F1,Optimized CV F1,Default Test F1,Optimized Test F1,Final Selected Threshold,Decision
+Random Forest,0.5,0.55,0.3827,0.3858,0.3753,0.3753,0.5,Retain 0.50

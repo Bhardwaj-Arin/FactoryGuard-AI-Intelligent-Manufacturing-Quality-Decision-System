@@ -1,0 +1,6 @@
+Feature,Lowest Pass Rate Category,Lowest Pass Rate (%),Highest Pass Rate Category,Highest Pass Rate (%)
+plant,plant_3,87.18,plant_2,87.99
+line,line_C,86.99,line_B,88.41
+shift,night,86.73,day,87.92
+material_grade,grade_C,86.47,grade_A,88.09
+inspection_method,manual,87.24,sensor,88.91

@@ -1,0 +1,26 @@
+{
+    "application": "FactoryGuard AI",
+    "entry_point": "streamlit_app/app.py",
+    "application_type": "Streamlit ML Decision-Support Application",
+    "model_type": "RandomForestClassifier",
+    "preprocessor_type": "ColumnTransformer",
+    "decision_threshold": 0.5,
+    "source_modules": [
+        "src/feature_engineering.py",
+        "src/validation.py",
+        "src/prediction.py"
+    ],
+    "streamlit_pages": [
+        "streamlit_app/pages/1_Predict.py",
+        "streamlit_app/pages/2_Model_Insights.py",
+        "streamlit_app/pages/3_Batch_Prediction.py"
+    ],
+    "assets": [
+        "streamlit_app/assets/factoryguard_deployment_architecture.png",
+        "streamlit_app/assets/top_15_feature_importance.png"
+    ],
+    "model_artifacts": [
+        "models/final_factoryguard_model.pkl",
+        "models/preprocessing_pipeline.pkl"
+    ]
+}

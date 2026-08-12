@@ -1,0 +1,11 @@
+check,passed
+Core project structure,True
+Streamlit pages,True
+Source modules,True
+Final model artifact,True
+Preprocessing artifact,True
+Streamlit assets,True
+requirements.txt,True
+Core dependencies listed,True
+Project imports,True
+Deployment-style inference,True

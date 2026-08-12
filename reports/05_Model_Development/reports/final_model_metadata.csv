@@ -1,0 +1,2 @@
+model_name,target_variable,majority_class,minority_class,training_records,test_records,number_of_features,cross_validated_f1,test_accuracy,test_precision,test_recall,test_f1,test_roc_auc,test_pr_auc,false_positive_rate,false_negative_rate,random_state
+Random Forest,final_pass,1,0,8000,2000,115,0.3827,0.8535,0.39819004524886875,0.3548387096774194,0.3752665245202559,0.7009477647665341,0.42437502789085124,0.07591324200913242,0.6451612903225806,42

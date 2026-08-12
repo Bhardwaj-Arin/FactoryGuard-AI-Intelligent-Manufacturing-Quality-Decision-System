@@ -1,0 +1,7 @@
+Step,Process
+1,Manufacturing data is collected
+2,Data is processed using the saved preprocessing pipeline
+3,Random Forest generates a minority-class probability
+4,Probability is compared with the 0.50 decision threshold
+5,Potentially problematic cases are flagged
+6,Human/operator reviews flagged cases and takes appropriate action

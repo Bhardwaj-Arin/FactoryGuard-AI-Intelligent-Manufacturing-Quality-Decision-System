@@ -1,0 +1,6 @@
+Strength,Evidence
+Meaningful class separation,ROC-AUC = 0.7009
+Reasonable overall accuracy,Accuracy = 85.35%
+Low false-positive rate,False Positive Rate = 7.59%
+Nonlinear pattern detection,Random Forest can capture nonlinear relationships in tabular manufacturing data.
+Feature-level interpretability,Feature importance and error analysis identify influential variables.

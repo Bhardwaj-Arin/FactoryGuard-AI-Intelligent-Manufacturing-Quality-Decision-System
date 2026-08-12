@@ -1,0 +1,8 @@
+check,status
+Python executable available,True
+requirements.txt exists,True
+Streamlit installed,True
+Pandas installed,True
+NumPy installed,True
+Scikit-learn installed,True
+Joblib installed,True

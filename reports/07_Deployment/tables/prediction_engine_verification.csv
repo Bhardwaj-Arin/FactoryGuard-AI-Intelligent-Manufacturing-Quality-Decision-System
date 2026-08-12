@@ -1,0 +1,2 @@
+prediction,prediction_label,class_0_probability,class_1_probability,decision_threshold
+1,Class 1 — Majority Class,0.3246481596844629,0.6753518403155372,0.5

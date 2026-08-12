@@ -1,0 +1,9 @@
+Limitation,Evidence
+Low minority-class recall,Minority recall = 35.48%
+High false-negative rate,False Negative Rate = 64.52%
+Moderate minority F1-score,Minority F1 = 37.53%
+Class imbalance,Class 0 represents approximately 12.39% of observations.
+Dataset dependence,Performance depends on the quality and representativeness of the available dataset.
+Feature dependence,Predictions depend on the features available during training and inference.
+Potential distribution shift,Real-world manufacturing conditions may differ from the training data.
+No causal interpretation,Feature importance and associations do not establish causal relationships.

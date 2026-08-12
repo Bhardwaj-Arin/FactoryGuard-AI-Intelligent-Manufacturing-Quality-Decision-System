@@ -1,0 +1,8 @@
+test_case,is_valid,error_count
+Valid Input,True,0
+Missing Value,False,2
+Invalid Numerical Value,False,1
+Invalid Categorical Value,False,1
+Invalid Timestamp,False,1
+Boundary Values,True,0
+Missing Required Column,False,1

@@ -1,0 +1,2 @@
+Model,Default Threshold,Optimized Threshold,Default CV F1,Optimized CV F1,F1 Improvement
+Random Forest,0.5,0.5500000000000002,0.3827227993439038,0.3857677902621723,0.0030449909182684864
